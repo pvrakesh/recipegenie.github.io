@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeGenie Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #4a4a4a;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RecipeGenie Privacy Policy</h1>
+    </header>
+    
+    <main>
+        <section class="section">
+            <h2>Introduction</h2>
+            <p>At RecipeGenie, we are committed to protecting your privacy. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information in connection with our iOS app, RecipeGenie.</p>
+        </section>
+
+        <section class="section">
+            <h2>Information Collection and Use</h2>
+            <p>RecipeGenie is designed with your privacy in mind. We do not collect, store, or retrieve any user information beyond what is strictly necessary for the operation of a subscription-based app in the iOS App Store.</p>
+        </section>
+
+        <section class="section">
+            <h2>App Store Subscription</h2>
+            <p>As a subscription-based app, RecipeGenie uses Apple's in-app purchase system to manage subscriptions. Any information related to your subscription is handled directly by Apple and is subject to Apple's privacy policy.</p>
+        </section>
+
+        <section class="section">
+            <h2>Data Storage</h2>
+            <p>All recipe data and user preferences are stored locally on your device. We do not have access to this information, nor do we transfer it to our servers or any third parties.</p>
+        </section>
+
+        <section class="section">
+            <h2>Third-Party Services</h2>
+            <p>RecipeGenie does not integrate with any third-party services that would require the sharing of your personal information.</p>
+        </section>
+
+        <section class="section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+        </section>
+
+        <section class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at privacy@recipegenie.com.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Last Updated: September 22, 2024</p>
+        <p>&copy; 2024 RecipeGenie. All rights reserved.</p>
+    </footer>
+</body>
+</html>
