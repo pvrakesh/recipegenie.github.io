@@ -92,14 +92,15 @@
             <p>Access our full range of 100+ dietary filters to perfectly tailor recipes to your needs and preferences. </p>
             <div class="image-gallery">
                
-                <img src="DietaryFilters1.png" alt="Image 1">
-                <img src="DietaryFilters2.png" alt="Image 2">
+<!--                 <img src="DietaryFilters1.png" alt="Image 1"> -->
+                <img src="DietaryFilters1.png" alt="Unlimited Recipes 1" class="thumbnail">
+<!--                 <img src="DietaryFilters2.png" alt="Image 2">
                 <img src="DietaryFilters3.png" alt="Image 3">
                 <img src="DietaryFilters4.png" alt="Image 4">
                 <img src="DietaryFilters5.png" alt="Image 5">
                 <img src="DietaryFilters6.png" alt="Image 6">
                 <img src="DietaryFilters7.png" alt="Image 7">
-                <img src="DietaryFilters8.png" alt="Image 8">
+                <img src="DietaryFilters8.png" alt="Image 8"> -->
                 
 <!--                 <div class="DietaryFilters2.png">Image 2</div>
                 <div class="DietaryFilters3.png">Image 3</div>
@@ -148,5 +149,26 @@
             </p>
         </div>
     </footer>
+        <div id="lightbox">
+        <img id="lightbox-image" src="" alt="Full size image">
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightbox-image');
+        const thumbnails = document.querySelectorAll('.thumbnail');
+
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                lightboxImage.src = thumbnail.src.replace('300/150', '800/600');
+                lightboxImage.alt = thumbnail.alt;
+                lightbox.style.display = 'flex';
+            });
+        });
+
+        lightbox.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+    </script>
 </body>
 </html>
